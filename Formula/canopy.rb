@@ -6,28 +6,28 @@
 class Canopy < Formula
   desc "Beautiful, powerful git dashboard for your terminal"
   homepage "https://shankar-sachin.github.io/canopy/"
-  version "1.0.4"
+  version "1.0.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.4/canopy-v1.0.4-aarch64-apple-darwin.tar.gz"
-      sha256 "8263141d6fb44be3fd119b47f89b9c3a464236b650fa86523099e9ae3c1b187e"
+      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.5/canopy-v1.0.5-aarch64-apple-darwin.tar.gz"
+      sha256 "9ae59057818855b3a1eb18be54cbca832e9eff3a67743f08ccd1eb51ab54a7da"
     end
     on_intel do
-      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.4/canopy-v1.0.4-x86_64-apple-darwin.tar.gz"
-      sha256 "4f8297a21372e217e0e1345891b41b6527370caa3c29e3465fcab6edd8781d79"
+      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.5/canopy-v1.0.5-x86_64-apple-darwin.tar.gz"
+      sha256 "e6b6acf516631da2f07c24797db8075fcab5b204170912f4e3ad5f700a949ebe"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.4/canopy-v1.0.4-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "799cec9d2a1be7577defb6c6347bbf96981cbe21653c71d8dada2d52b1ab82d5"
+      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.5/canopy-v1.0.5-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "1aca6ff680a719a046cdeb3ea36785ce4bbfda26bf365f4643bcd3c7f4ffec39"
     end
     on_intel do
-      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.4/canopy-v1.0.4-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "9902d7b60df50c45e15e9e4b0ba72ba7149cb9a4042dd4f4bfe3f41ee72dd44f"
+      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.5/canopy-v1.0.5-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "950393495f53d73d0fb0f32d917d53d9ce97127514b5783c46301b48e74d3857"
     end
   end
 
