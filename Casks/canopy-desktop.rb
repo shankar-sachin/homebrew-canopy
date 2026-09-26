@@ -3,9 +3,9 @@
 cask "canopy-desktop" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "1.0.3"
-  sha256 arm:   "d7d7d9497fdcb0f236bcdba5e4603f3a3738d14110bced23453eba28b4ced7a6",
-         intel: "60aa36887f4cd61f1ba13105562b05c242e275f8858bcb19e26afdd0207fe6d2"
+  version "1.0.4"
+  sha256 arm:   "8a03aa9e4ab63bd714458ff96ef710741ce8c6591b3165147081b38ec2b741bf",
+         intel: "0019656b4f3e690d552fbaa75912545e89e08b23b2a63eae266c9617ff0aae47"
 
   url "https://github.com/shankar-sachin/canopy/releases/download/v#{version}/canopy-desktop-v#{version}-#{arch}-apple-darwin.dmg"
   name "canopy"
