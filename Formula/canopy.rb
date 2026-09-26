@@ -3,8 +3,8 @@
 class Canopy < Formula
   desc "Beautiful, powerful git dashboard for your terminal"
   homepage "https://github.com/shankar-sachin/canopy"
-  url "https://github.com/shankar-sachin/canopy/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "772cbe41cda10d9a60bf149c5f3a84d27c793ebb4184c4c9615c32e09bee8946"
+  url "https://github.com/shankar-sachin/canopy/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "b6debfaf9752a7ecc263e0a238a291a705c1ba8ffc719f98aeaeb79cc896b952"
   license "MIT"
   head "https://github.com/shankar-sachin/canopy.git", branch: "main"
 
