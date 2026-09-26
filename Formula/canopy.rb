@@ -1,9 +1,10 @@
-# Until the first tagged release this formula only supports --HEAD.
-# The release workflow in shankar-sachin/canopy replaces this file with a
-# versioned formula on every `v*` tag.
+# Template: the release workflow fills in https://github.com/shankar-sachin/canopy/archive/refs/tags/v0.1.0.tar.gz and 26581e8272e3c990ecf874815402a24109ff1be85ec17fcc8b28d7fee80cde85 and pushes the
+# result to shankar-sachin/homebrew-canopy as Formula/canopy.rb.
 class Canopy < Formula
   desc "Beautiful, powerful git dashboard for your terminal"
   homepage "https://github.com/shankar-sachin/canopy"
+  url "https://github.com/shankar-sachin/canopy/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "26581e8272e3c990ecf874815402a24109ff1be85ec17fcc8b28d7fee80cde85"
   license "MIT"
   head "https://github.com/shankar-sachin/canopy.git", branch: "main"
 
@@ -15,6 +16,7 @@ class Canopy < Formula
   end
 
   test do
-    assert_match "canopy", shell_output("#{bin}/canopy --version")
+    assert_match version.to_s, shell_output("#{bin}/canopy --version")
+    assert_match "not inside a git repository", shell_output("#{bin}/canopy #{testpath}/nope 2>&1", 1)
   end
 end
