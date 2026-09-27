@@ -4,30 +4,30 @@
 # Installs the prebuilt binary from the GitHub release, so nothing is
 # compiled (Homebrew on Linux needs no C compiler or Rust).
 class Canopy < Formula
-  desc "Beautiful, powerful git dashboard for your terminal"
+  desc "Git and GitHub in your terminal, everything from the keyboard"
   homepage "https://shankar-sachin.github.io/canopy/"
-  version "1.0.7"
+  version "1.0.8"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.7/canopy-v1.0.7-aarch64-apple-darwin.tar.gz"
-      sha256 "8be87ab236b64e097e804119c5875b9fb23aa45c02cda123f236884fd267f6da"
+      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.8/canopy-v1.0.8-aarch64-apple-darwin.tar.gz"
+      sha256 "4e8590415f3c6f12b7a9beb2cbe7c021031fcdf014db73195de5bd7b8e40ccac"
     end
     on_intel do
-      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.7/canopy-v1.0.7-x86_64-apple-darwin.tar.gz"
-      sha256 "1a7c8784dba3424a86e66d1d891c6083d5fe6006ed33ac5d8423cb1dca6c087c"
+      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.8/canopy-v1.0.8-x86_64-apple-darwin.tar.gz"
+      sha256 "31d0db06ff29a5915efd328a471d362673d4fbf298d7dfa92a7ffe03a484193f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.7/canopy-v1.0.7-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "651c7a9cd54fd699a8e803013717e021c590b7abdff163542d3ee93fc908aea0"
+      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.8/canopy-v1.0.8-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "4ff62d0cc9442e70626ba8a3004f9c33698b97a23d98ced8eff3d7e5f542b429"
     end
     on_intel do
-      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.7/canopy-v1.0.7-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "14139149e6d962123d124e4d4c588c65cf409c038d5f3d100527c7c39029dbaa"
+      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.8/canopy-v1.0.8-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "cc859c6886fc3ecd8ecfada3f980f6f75feb431597e9b643e29cd89740a3ddbe"
     end
   end
 
