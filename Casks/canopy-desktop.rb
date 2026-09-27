@@ -3,9 +3,9 @@
 cask "canopy-desktop" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "1.0.6"
-  sha256 arm:   "c3d52b68eb16a4bdf584e78e6906165ff1c39ba5ff4d1930c451abeef84c2473",
-         intel: "329ede94688d77cf261f814c5535614ca525d84c2c25a93d71afce4696d0739b"
+  version "1.0.7"
+  sha256 arm:   "02e325bcbeeadf640d29983c2837ada5fc92410b7d7943354825cba5f0644ac8",
+         intel: "531f6bf7c2b66c125e4e6a4ed20185d0d144a350ca0be85792b84846b48ccec3"
 
   url "https://github.com/shankar-sachin/canopy/releases/download/v#{version}/canopy-desktop-v#{version}-#{arch}-apple-darwin.dmg"
   name "canopy"
@@ -14,7 +14,7 @@ cask "canopy-desktop" do
 
   app "canopy.app"
 
-  zap trash: "~/.config/canopy/desktop.json"
+  zap trash: "~/.canopy/desktop.json"
 
   caveats <<~EOS
     This cask isn't notarized by Apple yet since it's a release preview.
