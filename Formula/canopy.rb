@@ -6,28 +6,28 @@
 class Canopy < Formula
   desc "Git and GitHub in your terminal, everything from the keyboard"
   homepage "https://shankar-sachin.github.io/canopy/"
-  version "1.0.11"
+  version "1.0.12"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.11/canopy-v1.0.11-aarch64-apple-darwin.tar.gz"
-      sha256 "2e767a2de80933fb5e07b80ccba27ade7a175a90ad4d769beec976bf6351cdd0"
+      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.12/canopy-v1.0.12-aarch64-apple-darwin.tar.gz"
+      sha256 "07a4fb924c5fcf15a062004bb4528962a07830c93651b9bda572dadf49395243"
     end
     on_intel do
-      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.11/canopy-v1.0.11-x86_64-apple-darwin.tar.gz"
-      sha256 "040fba05169fa11b94f6700f95814650dd39736faebf56ef27f4a6730c1e3817"
+      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.12/canopy-v1.0.12-x86_64-apple-darwin.tar.gz"
+      sha256 "be697e42ad4d23ae97e01abe5c5b0b582726c0bfee4c31c811656da28cee7968"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.11/canopy-v1.0.11-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "794953a084f11c0bf9c63bc43e0e54bea4cd0f478fe40cb2b1b3b0e083c65fc6"
+      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.12/canopy-v1.0.12-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0f60aaf7b41e27de069755c78e8b2a50626565e6631dd1fbb130c92b7e1c70d1"
     end
     on_intel do
-      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.11/canopy-v1.0.11-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b204c49d51f20bf0e664eb3fd07ba4f014f5f649026f83c61fd3e9b418c4420f"
+      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.12/canopy-v1.0.12-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "70180eb410e3b411d47e629c02292ee41ab38f310410f5a2a7b779fda965c298"
     end
   end
 
