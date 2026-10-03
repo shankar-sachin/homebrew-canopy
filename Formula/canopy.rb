@@ -6,28 +6,28 @@
 class Canopy < Formula
   desc "Git and GitHub in your terminal, everything from the keyboard"
   homepage "https://shankar-sachin.github.io/canopy/"
-  version "1.0.13"
+  version "1.0.15"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.13/canopy-v1.0.13-aarch64-apple-darwin.tar.gz"
-      sha256 "57a6c89dc3cd7cb4b01507a5cb69911d8d5977e11103ab3631e593a6efe5a880"
+      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.15/canopy-v1.0.15-aarch64-apple-darwin.tar.gz"
+      sha256 "cc44aedced5d60a74f607df22a70feac43fc03d1aa0871e0c98374787f2466d3"
     end
     on_intel do
-      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.13/canopy-v1.0.13-x86_64-apple-darwin.tar.gz"
-      sha256 "087e5bb0775d32b36f1f314fb0056294b455c07e631a35c8677ef3a4e9a05a7b"
+      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.15/canopy-v1.0.15-x86_64-apple-darwin.tar.gz"
+      sha256 "aedb6ec1b6afde6e29117f16aec5e3eac038496594db78e64a4c58221daed6b8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.13/canopy-v1.0.13-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d09f419c214d2af6598cd23b06680361055c200a6f379ee40e7b93b8e6fa09ab"
+      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.15/canopy-v1.0.15-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "934d7cbfa0b39f61fe5eccb4ec0803c37a7bb705f1b7b6ae26330c2c518290c5"
     end
     on_intel do
-      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.13/canopy-v1.0.13-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "16646d983201ed2d39707b7d7888552b41fe48854322a0668b4761ded2ab2139"
+      url "https://github.com/shankar-sachin/canopy/releases/download/v1.0.15/canopy-v1.0.15-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c328b08f1ff6b705ea6a49a6179de5e55a6bfa9a894f1a3f4f7db24cf570db7c"
     end
   end
 
@@ -36,7 +36,7 @@ class Canopy < Formula
   end
 
   def caveats
-    "Canopy needs git on your PATH (it runs your own git). GitHub pages also use the GitHub CLI (gh)."
+    "canopy needs git on your PATH (it runs your own git). GitHub pages also use the GitHub CLI (gh)."
   end
 
   test do

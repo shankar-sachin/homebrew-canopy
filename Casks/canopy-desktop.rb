@@ -3,9 +3,9 @@
 cask "canopy-desktop" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "1.0.13"
-  sha256 arm:   "3e31d3db2f5df5da052ad3a8137ba57ced64410a6f353fd22390cd7d755c9b95",
-         intel: "df1e7d160f93ae4324cbe2fadc8622c6c913a97276754ac7f7dd87ae34a3c159"
+  version "1.0.15"
+  sha256 arm:   "245aac4fe756602f2cde69d7672c43596e02c4347e88b658a899cfe563d70aee",
+         intel: "51d3a69c0fd563548728b5e4fcdca90361066432a784912255c533026da4c85f"
 
   url "https://github.com/shankar-sachin/canopy/releases/download/v#{version}/canopy-desktop-v#{version}-#{arch}-apple-darwin.dmg"
   name "canopy"
@@ -17,7 +17,7 @@ cask "canopy-desktop" do
   zap trash: "~/.canopy/desktop.json"
 
   caveats <<~EOS
-    This cask isn't notarized by Apple yet since it's a release preview.
+    This app isn't notarized by Apple, and won't be.
     If macOS says canopy can't be opened, open System Settings → Privacy &
     Security and click "Open Anyway", or run:
       xattr -dr com.apple.quarantine /Applications/canopy.app
